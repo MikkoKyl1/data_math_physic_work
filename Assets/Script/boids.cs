@@ -12,6 +12,6 @@ public class boids : MonoBehaviour
 
     public boids(double x, double y, double xVel, double Yvel)
     {
-        (x, y, Xvel, Yvel) = (x, y, xVel, double yVel);
+        //(x, y, Xvel, Yvel) = (x, y, xVel, double yVel);
     }
 }
