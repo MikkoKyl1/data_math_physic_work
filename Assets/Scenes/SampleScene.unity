@@ -206,6 +206,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &476929245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6955845000967552829, guid: 82fcda9af44d11c47bfcaa801560add1, type: 3}
+  m_PrefabInstance: {fileID: 968494619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &476929247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476929245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd6addb859ffe04cb8b8e073581e48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &968494619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -219,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -9208200283524734766, guid: 82fcda9af44d11c47bfcaa801560add1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -38.1
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: -9208200283524734766, guid: 82fcda9af44d11c47bfcaa801560add1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -357,20 +374,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1609895308 stripped
+--- !u!1 &1773428925 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -5813329009908412096, guid: 82fcda9af44d11c47bfcaa801560add1, type: 3}
+  m_CorrespondingSourceObject: {fileID: -2737060836510897352, guid: 82fcda9af44d11c47bfcaa801560add1, type: 3}
   m_PrefabInstance: {fileID: 968494619}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1609895309
+--- !u!114 &1773428926
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609895308}
+  m_GameObject: {fileID: 1773428925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcd6addb859ffe04cb8b8e073581e48f, type: 3}
+  m_Script: {fileID: 11500000, guid: 78e46ffb3dec5c54f8307e9bb3457446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cannonStrength: 43
+  netPrefab: {fileID: 4029428738618027753, guid: 00906c1624e0cf142911e8c2de9f5a87, type: 3}
