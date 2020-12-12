@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Flock/Behavior/Steered Cohesion")]
-public class SteeredCohensionBehavior : FlockBehavior
+public class SteeredCohensionBehavior : FilteredFlockBehavior
 {
 
     Vector2 currentVelocity;
@@ -16,7 +16,8 @@ public class SteeredCohensionBehavior : FlockBehavior
 
         // add all points together and avarage
         Vector2 cohensionMove = Vector2.zero;
-        foreach (Transform item in context)
+        List<Transform> filteredContext = (filter == null) ? context : filter.Filter(agent, context);
+        foreach (Transform item in filteredContext)
         {
             cohensionMove += (Vector2)item.position;
         }
