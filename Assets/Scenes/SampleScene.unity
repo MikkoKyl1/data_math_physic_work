@@ -157,7 +157,7 @@ MonoBehaviour:
   startingCount: 50
   driveFactor: 10
   maxSpeed: 2.5
-  neighborRadius: 5
+  neighborRadius: 1.5
   avoidanceRadiusMultiplier: 0.5
 --- !u!4 &89617534
 Transform:
@@ -737,7 +737,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968494620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
